@@ -1,0 +1,71 @@
+
+
+
+// Bootstrap
+@import "bootstrap/bootstrap-reboot";
+
+@import "bootstrap/bootstrap-grid";
+
+@import "bootstrap/bootstrap-utilities";
+
+@import "bootstrap/navbar";
+
+@import "bootstrap/nav";
+
+@import "bootstrap/containers";
+
+@import "bootstrap/functions";
+
+@import "bootstrap/variables";
+
+@import "bootstrap/mixins";
+
+@import "bootstrap/transitions";
+
+@import "bootstrap/buttons";
+
+@import "bootstrap/button-group";
+
+
+
+
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+// Gallery
+
+@import "@fancyapps/ui/dist/fancybox.css";
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+}
+
+.grid img {
+    width: 200px;
+    height: 200px;
+}
